@@ -1,0 +1,101 @@
+body {
+      background-image: url(https://cdn.pixabay.com/photo/2016/02/10/16/37/cat-1192026__480.jpg);
+      background-repeat: no-repeat; 
+      background-size: cover;
+    }
+
+      h1 {
+
+        background-color: paleturquoise;
+        color: darksalmon;
+        text-align: center;
+        padding: 15px;
+        border-bottom: 10px solid wheat;
+        border-top: 10px solid orange;
+        margin: 0 0px;
+        /* height: 150px;*/
+        overflow:scroll;
+        width: 75%;
+        margin: 0 auto;    /*centers block elements*/
+        font-size: 5vw;
+        font-family: 'Sofia';
+
+      }
+
+      h2 {
+  font-family: 'Pacifico';
+  font-size: 32px;
+  border-top: 2px dotted whitesmoke;
+  border-bottom: 2px dotted whitesmoke;
+  width: 25%;
+
+      }
+
+      img {
+        border: 4px dotted #050a52;
+        border-radius: 100px 50px;
+        max-width: 100%;
+        height: auto;
+
+      }
+      main {
+        background-color: rgba(5, 10, 82, .3);
+        padding: 20px;
+        width: 75%;
+        margin: 0 auto;
+        font-size: 2vw;
+      }
+
+      a {
+        color: yellow;
+      }
+
+      label {
+        font-size: 2vw;
+        font-family: 'Quicksand';
+      }
+
+      legend {
+        font-size: 2.5vw;
+        text-align: left;
+        background-color: dimgrey;
+        color: lightpink; 
+        padding: 4px; 
+        font-family: 'Quicksand';   
+         }
+
+        fieldset {
+          border: 3px double white;
+          border-radius: 50px 50px;
+        }
+      ul {
+        color: greenyellow;
+        background-color: skyblue;
+      }
+
+      button {
+        border: 5px double darkgreen;
+        font-family: 'Lobster';
+        font-size: 50px;
+        margin-left: 500px;
+      }
+
+      input {
+        font-size: 30px;
+        border-radius: 30px 30px;
+        text-align: center;
+
+      }
+      footer {
+        background-color: slategray;
+        color: white;
+        text-align: center;
+        width: 80%;
+        padding: 5px;
+        margin: 0 auto;
+        font-family: 'Raleway';
+        font-size: 20px;
+        border-top: 8px dashed white;
+        border-bottom: 8px dashed white;
+
+      }

@@ -1,0 +1,134 @@
+<html lang="en">
+  <head>
+    <meta charset="utf=8">
+    <title> CSUMB Survey </title> 
+    <style>
+      body { 
+        background-image: url(https://cdn.pixabay.com/photo/2020/08/14/10/52/beach-5487589_1280.jpg);
+background-repeat: repeat;
+Background-size: contain
+      }
+      h1 {
+        background-color: white;
+        text-align: center;
+        padding: 10px;
+        font-size: 40px;
+      }
+      main{
+        background-color: rgba(237,239,245,0.7);
+        
+        padding:20px
+      }
+      p {
+        text-align: center; 
+        font-size: 18px;
+        background-color: skyblue;
+        padding: 20px;
+      }
+      label{
+        font-size:30px;
+        padding: 30px;
+      }
+      input{
+        font-size: 20px;
+      }
+      select{ 
+        font-size: 20px;
+      }
+      legend{
+        font-size: 20px;
+      }
+      button{
+        font-size: 30px;
+        font-color: Black;
+        background-color: white;
+      }
+      </style>
+    </head>
+    
+<h1 id="title"> CSUMB Activity Survey </h1>
+<body>
+  <main>
+<p id="description"> Thank you for taking time out of your day to answer this short survey! We are trying to gather information on what activities CSUMB students like to do on weekends.  </p>
+<br>
+<form id="survey-form"> 
+  <label id="name-label" for="name"> <em> Name: </em></label>
+  <input type="text" id="name" placeholder="Your Name" required >
+  <br>
+  <label id="email-label" for="email"> <em>Email:</em> </label> 
+  <input id="email" type="email" placeholder="Your Email" required> 
+  <br>
+  <label id="number-label" for="number"> <em>Age: (optional)</em></label>
+
+  <input id="number" type="number" placeholder="Your Age" min="0" max="35">
+  <br>
+  <br>
+  <br>
+  <label id="dropdown-label" for="dropdown"> <em>What year are you graduating? </em> </label> 
+<select id="dropdown" required>
+  <option> Select One </option>
+  <option> 2022 </option>
+  <option> 2023 </option>
+  <option> 2024 </option>
+  <option> 2025 </option>
+  <option> 2026 </option>
+</select>
+
+<br>
+<br>
+<br> 
+<fieldset>
+  <legend> <em>On weekends, do you prefer to stay on campus or go off campus? </em> </legend>
+  <input type= "radio" name="Q1" value="Answer"> Stay on campus
+  <input type="radio" name="Q1" value="Answer1"> Go off campus
+  </fieldset>
+  <br>
+  <br>
+  <fieldset> 
+    <legend> <em>If you chose "Stay on campus", what activities do you partake in? </em> </legend>
+    <input type="checkbox" name="Q2" value="A1"> Studying in library 
+    <br>
+    <input type="checkbox" name="Q2" value="A2"> Hanging out at the Otter Student Union
+     <br>
+    <input type="checkbox" name="Q2" value="A3"> Staying in your room/Sleeping
+     <br>
+    <input type="checkbox" name="Q2" value="A4"> Relaxing in the quad
+     <br>
+    <input type="checkbox" name="Q2" value="A5"> Hitting the gym
+     <br>
+    <input type="checkbox" name="Q2" value="A6"> Eating at the Dining commons
+</fieldset>
+ <br>
+  <br>
+<fieldset>
+    <legend> <em>If you chose "Go off campus", what activities do you partake in? </em> </legend>
+    <input type="checkbox" name="Q2" value="A1"> Shopping at Del Monte Shopping Center 
+    <br>
+    <input type="checkbox" name="Q2" value="A2"> Hitting the beach
+     <br>
+    <input type="checkbox" name="Q2" value="A3"> Exploring nature on a hike 
+     <br>
+    <input type="checkbox" name="Q2" value="A4"> Visiting Cannery Row
+     <br>
+    <input type="checkbox" name="Q2" value="A5"> 
+    Going home for the weekend
+     <br>
+    <input type="checkbox" name="Q2" value="A6"> Indulging in off campus dining 
+    </fieldset>
+    <br>
+    <br>
+    <br>
+    <legend> <em>Please explain why you chose "Stay on campus" versus "Go off campus". If you partake in other activities not listed, please specify!</em> </legend>
+   <textarea name="Additional Comments" cols="50" rows="10">
+     </textarea>
+       <br>
+    <br>
+    <br>
+<button input id="submit" type="click"> 
+  Submit
+  </button>
+<link rel="stylesheet" href="styles.css">
+</form>
+</main>
+</body>
+</html>
