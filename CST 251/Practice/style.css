@@ -1,0 +1,75 @@
+
+ footer{
+      background-color: darkblue;
+    }
+    main img{
+      width: 300px;
+    }
+
+    footer img{
+      width: 200px;
+    }
+	  nav ul {
+		  background-color: lime;
+	  }
+	  
+	  h1, h2{
+		  background-color: yellow;
+	  }
+	  
+	  #cd-img {
+		 border-top-left-radius: 40px;
+		 border-top-right-radius: 40px;
+		
+	  }
+	  
+	  #cs-img{
+		  border-bottom-left-radius: 40px;
+		  border-bottom-right-radius: 40px;
+	  }
+	  
+	  .minorPrograms-img {
+		  border: 10px double rgba(0,128,0,1.00)
+	  }
+	  
+	  .degreePrograms-img {
+		  border: 10px double rgba(72,108,229,1.00)
+	  }
+	  
+	  span.highlight {
+		  background-color: cyan;
+		  font-size: 36px;
+	  }
+	  
+	  nav ul li a active{ 
+	  font-size: 40px;
+		
+	  }
+
+	nav{
+	position: fixed;
+		right: 0px;
+		bottom: 0px;
+		width: 40%;
+		
+	}
+	  
+	  a:link {
+  color: #FF0000;
+}
+
+/* visited link */
+a:visited {
+  color: orangered;
+}
+
+/* mouse over link */
+a:hover {
+  color: #FF00FF;
+}
+
+/* selected link */
+a:active {
+  color: orange;
+	  
+	  
